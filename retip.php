@@ -5,7 +5,7 @@ ini_set('display_errors', 0);
 $ua = $_SERVER['HTTP_USER_AGENT'];
 if (preg_match('/^Mozilla\/5.0/', $ua) === 1) {
     echo "hoge";
-    exit(1)
+    exit(1);
 }
 
 // Return IP address
